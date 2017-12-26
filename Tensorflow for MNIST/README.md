@@ -22,7 +22,9 @@ Due date: Oct. 25, 2017
  **Sliders:**
  
    1] "Alpha": (Learning rate) Range should be between 0.001 and 1.0. Default value = 0.1 increments=.001
+   
    2] "Lambda": (Weight regularization). Range should be between 0.0 and 1.0. Default value = 0.01 Increments=0.01
+   
    3] "Num. of Nodes"": (number of nodes in the hidden layer). Range 1 to 500. Default value=100  increment=1
    4] "Batch Size": Number of samples to process in each batch. Range 1 to 256. Default value=64 Increments=1
    5] "Percent Data": Percent of training and test data points to be used. Range 1 to 100. Default value=10, increments=1
