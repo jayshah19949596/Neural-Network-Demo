@@ -17,9 +17,11 @@ Due: Sept. 27, 2017
 - **Slider:**
 
       1. "alpha (learning rate)". Range should be between 0.001 and 1.0. Default value = 0.1
-      2. Buttons:
-          a. "Adjust Weights (Learn)". When this button is pressed the selected Hebbian learning rule should  be applied for 100 epochs.
-          b. "Rondomize Weights". When this button is pressed weights and biases should be randomized. The value of the randomized weights and biases should be from -0.001 to 0.001 .
+      
+ - **Buttons:**
+ 
+       1. "Adjust Weights (Learn)". When this button is pressed the selected Hebbian learning rule should  be applied for 100 epochs.
+       2. "Rondomize Weights". When this button is pressed weights and biases should be randomized. The value of the randomized weights and biases should be from -0.001 to 0.001 .
  
 - **Drop-Down Selection Boxes**
 
