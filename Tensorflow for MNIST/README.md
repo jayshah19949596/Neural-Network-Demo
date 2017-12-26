@@ -18,7 +18,9 @@ Due date: Oct. 25, 2017
  - Your network should include one hidden layer and one output layer with 10 nodes. The input for the neural network is the mnist data. 
  - Note that the mnist data includes about 60,000 training and about 10,000 test images.
  - Your program should include the following sliders, buttons, and drop-down box.
+ 
  **Sliders:**
+ 
    1] "Alpha": (Learning rate) Range should be between 0.001 and 1.0. Default value = 0.1 increments=.001
    2] "Lambda": (Weight regularization). Range should be between 0.0 and 1.0. Default value = 0.01 Increments=0.01
    3] "Num. of Nodes"": (number of nodes in the hidden layer). Range 1 to 500. Default value=100  increment=1
@@ -26,15 +28,18 @@ Due date: Oct. 25, 2017
    5] "Percent Data": Percent of training and test data points to be used. Range 1 to 100. Default value=10, increments=1
 
   **Buttons:**
+  
    1] "Adjust Weights": (Learn) When this button is pressed the gradient descent should be applied 10 epochs. The graphs should not be cleared when this button is pressed.
    2] "Reset Weights". When this button is pressed all weights should be set to zeros. and all graphs should be cleared.
  
   **Drop-Down Selection Box**
+  
    1] "Hidden Layer Transfer Function". A drop-down box to allow the user to select between two transfer functions for the hidden layer (Relu, and Sigmoid)
    2] "Output Layer Transfer Function". A drop-down box to allow the user to select between two transfer functions for the output layer (Softmax or Sigmoid)
    3] "Cost Function". A drop-down box to allow the user to select between two cost functions (Cross Entropy or MSE)
 
   **Notes:**
+  
   - The mnist data includes two sets. "Train" set and "Test" set. Put all the mnist image files (which includes two "Train" and   - "Test" directory in a directory called "MNIST_data". This directory should be located in the same folder as your main program.
   - When submitting your assignment DO NOT submit the "MNIST_data" directory. Use a relative path to "MNIST_data" directory.
   - When your program starts it should automatically read the "Percent Data" from "Train" and "Test" directories. 
