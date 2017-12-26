@@ -33,7 +33,7 @@ Due date: Sept. 17, 2017
    **Buttons**
    
      - Button1: Train. Clicking this button should adjust the weights and bias for 100 steps using the learning rule. 
-                      `Wnew =Wold+ epT  where  e = t – a`
+                      "Wnew =Wold+ epT  where  e = t – a"
      - Button 2: Create random data. Assuming that there are only two possible target values 1 and -1 (two classes), this button should create 4 random data points (two points for each class). 
      - The range of data points should be from -10 to 10 for both dimensions.
  
