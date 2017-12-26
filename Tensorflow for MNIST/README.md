@@ -29,14 +29,14 @@ Due date: Oct. 25, 2017
 
   **Buttons:**
   
-   1] "Adjust Weights": (Learn) When this button is pressed the gradient descent should be applied 10 epochs. The graphs should not be cleared when this button is pressed.
-   2] "Reset Weights". When this button is pressed all weights should be set to zeros. and all graphs should be cleared.
+   1. "Adjust Weights": (Learn) When this button is pressed the gradient descent should be applied 10 epochs. The graphs should not be cleared when this button is pressed.
+   2. "Reset Weights". When this button is pressed all weights should be set to zeros. and all graphs should be cleared.
  
   **Drop-Down Selection Box**
   
-   1] "Hidden Layer Transfer Function". A drop-down box to allow the user to select between two transfer functions for the hidden layer (Relu, and Sigmoid)
-   2] "Output Layer Transfer Function". A drop-down box to allow the user to select between two transfer functions for the output layer (Softmax or Sigmoid)
-   3] "Cost Function". A drop-down box to allow the user to select between two cost functions (Cross Entropy or MSE)
+   1. "Hidden Layer Transfer Function". A drop-down box to allow the user to select between two transfer functions for the hidden layer (Relu, and Sigmoid)
+   2. "Output Layer Transfer Function". A drop-down box to allow the user to select between two transfer functions for the output layer (Softmax or Sigmoid)
+   3. "Cost Function". A drop-down box to allow the user to select between two cost functions (Cross Entropy or MSE)
 
   **Notes:**
   
